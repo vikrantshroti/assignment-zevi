@@ -1,0 +1,29 @@
+.card-container {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-button {
+    width: 7vw;
+    height: 5vh;
+    margin: 5px;
+    background-color: white;
+}
+
+.card-input-size {
+    width: 3vw;
+    height: 5vh;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.card-input-color {
+    width: 5vw;
+    height: 5vh;
+    margin: 5px;
+    box-sizing: border-box;
+}

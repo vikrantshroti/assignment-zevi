@@ -1,0 +1,57 @@
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  width: 100%;
+  height: 10vh;
+  margin: 0 auto;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: grey;
+  color: white;
+}
+
+.heading {
+  width: 20%;
+  text-align: center;
+}
+
+.input {
+  width: 60%;
+  height: 6vh;
+  padding: 10px;
+}
+
+.button-container {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-text {
+  padding: 10px;
+}
+
+.signup-button {
+  height: 5vh;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 2vw;
+  width: 100%;
+  height: 100%;
+
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
