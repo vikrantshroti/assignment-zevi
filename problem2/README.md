@@ -5,7 +5,7 @@ Frontend is bootstrapped with [Create React App](https://github.com/facebook/cre
 How to start backend.
 Backend is bootstrapped with [Flask](https://flask.palletsprojects.com).
 
-Note: Backend is supposed to call [Flikr API](https://www.flickr.com/services/api/) and user enters `query` word but due to complication of storing API key and time constraint of this assignment currently response of API is hardcoded at backend and it is filtered at front end for sake of simplicity.
+Note: Backend is supposed to call [Flikr API](https://www.flickr.com/services/api/) on the basis of `query` word coming from frontend but due to complication of storing API key and time constraint of this assignment, I have hardcoded response of API at backend and it is filtered at front end for sake of simplicity.
 
 ## How to setup
 
