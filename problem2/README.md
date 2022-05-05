@@ -1,13 +1,26 @@
-How to start backend
+# Problem 2
 
-- navigate to \assignmet-zevi\problem2\backend
-- create virtual env with `virtualenv flask` (at time of setup)
+This project has 2 directories, frontend and backend.
+Frontend is bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+How to start backend.
+Backend is bootstrapped with [Flask](https://flask.palletsprojects.com).
+
+Note: Backend is supposed to call [Flikr API](https://www.flickr.com/services/api/) and user enters `query` word but due to complication of storing API key and time constraint of this assignment currently response of API is hardcoded at backend and it is filtered at front end for sake of simplicity.
+
+## How to setup
+
+### backend
+
+- navigate to directory
+- create virtual env with `virtualenv flask` (only once at time of setup)
 - now run server `python server.py`
 - open `http://127.0.0.1:5000/data` in browser to check if data is coming
 
-How to start frontend
+### frontend
 
-- yarn start
-- open `http://localhost:3000` in browser
+- navigate to directory
+- do `yarn start` in terminal and open `http://localhost:3000` in browser
+
+## Output
 
 ![gif](https://raw.githubusercontent.com/vikrantshroti/assignment-zevi/master/problem2/demo.gif)
