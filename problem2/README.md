@@ -13,3 +13,4 @@ How to start frontend
 <!-- <video src='your URL here' width=180/> -->
 
 ![video](https://raw.githubusercontent.com/vikrantshroti/assignment-zevi/master/problem2/demo.mp4)
+![gif](https://raw.githubusercontent.com/vikrantshroti/assignment-zevi/master/problem2/demo.gif)
